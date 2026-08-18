@@ -4,14 +4,14 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover,user-scalable=no">
 <meta name="theme-color" content="#0d1324">
-<title>3 en raya</title>
+<title>Marcan3nRaya</title>
 <style>
 *{box-sizing:border-box;-webkit-tap-highlight-color:transparent}html,body{margin:0;min-height:100%;background:#0d1324;color:#fff;font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;overscroll-behavior:none}body{min-height:100dvh;display:grid;place-items:center;padding:16px;touch-action:manipulation}.app{width:min(100%,520px);background:#161f36;border:1px solid #2a3658;border-radius:24px;padding:20px;box-shadow:0 24px 70px #0008}h1{margin:0 0 6px;font-size:clamp(2rem,10vw,3.5rem);letter-spacing:-.06em}.x{color:#66d9ff}.o{color:#ff91bc}.sub{margin:0 0 18px;color:#aeb9d5}.controls{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:14px}select,button{font:inherit;color:#fff;background:#202b49;border:1px solid #334263;border-radius:14px;min-height:48px;padding:0 12px}.score{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-bottom:14px}.score div{padding:10px;background:#11192c;border-radius:14px;text-align:center}.score strong{display:block;font-size:1.4rem}.score span{font-size:.75rem;color:#aeb9d5}.status{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-bottom:14px;min-height:34px;font-weight:700}.chip{font-size:.75rem;color:#aeb9d5;border:1px solid #334263;border-radius:999px;padding:7px 10px;white-space:nowrap}.board{width:100%;aspect-ratio:1;display:grid;grid-template-columns:repeat(3,1fr);gap:10px}.cell{appearance:none;padding:0;min-height:0;border-radius:18px;background:#202b49;border:1px solid #334263;font-size:clamp(3rem,20vw,6rem);font-weight:900;line-height:1;display:grid;place-items:center;user-select:none;-webkit-user-select:none;touch-action:manipulation;cursor:pointer}.cell:active:not(:disabled){transform:scale(.96);background:#2a385d}.cell:disabled{opacity:1}.cell.win{outline:3px solid #6ff0b6;background:#193b3a}.actions{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:14px}.primary{background:linear-gradient(135deg,#7368f0,#9a73ef);border:0;font-weight:800}.note{text-align:center;color:#8793b3;font-size:.75rem;margin:14px 0 0}@media(max-width:420px){body{padding:10px}.app{padding:14px;border-radius:20px}.controls,.actions{grid-template-columns:1fr}.board{gap:8px}.cell{border-radius:15px}}
 </style>
 </head>
 <body>
 <main class="app">
-<h1><span class="x">3</span> en <span class="o">raya</span></h1>
+<h1>Marcan3nRaya</h1>
 <p class="sub">Toca una casilla para jugar.</p>
 <div class="controls"><select id="mode"><option value="cpu">Contra la máquina</option><option value="pvp">Dos jugadores</option></select><select id="diff"><option value="easy">Máquina casual</option><option value="hard">Máquina imbatible</option></select></div>
 <div class="score"><div><strong id="sx">0</strong><span id="lx">Tú (X)</span></div><div><strong id="sd">0</strong><span>Empates</span></div><div><strong id="so">0</strong><span id="lo">CPU (O)</span></div></div>
