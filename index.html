@@ -4,14 +4,14 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover,user-scalable=no">
 <meta name="theme-color" content="#f97316">
-<title>Marcan3nRaya</title>
+<title>Tres al Toque</title>
 <style>
 *{box-sizing:border-box;-webkit-tap-highlight-color:transparent}html,body{margin:0;min-height:100%;background:#f97316;color:#8a3a00;font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;overscroll-behavior:none}body{min-height:100dvh;display:grid;place-items:center;padding:16px;touch-action:manipulation}.app{width:min(100%,520px);background:#fff;border:1px solid #fed7aa;border-radius:24px;padding:20px;box-shadow:0 24px 70px #9a341233}h1{margin:0 0 6px;font-size:clamp(2rem,10vw,3.5rem);letter-spacing:-.06em;color:#f97316}.sub{margin:0 0 18px;color:#9a5a2e}.controls{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:14px}select,button{font:inherit;color:#9a3412;background:#fff7ed;border:1px solid #fdba74;border-radius:14px;min-height:48px;padding:0 12px}.score{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-bottom:14px}.score div{padding:10px;background:#fff7ed;border:1px solid #ffedd5;border-radius:14px;text-align:center}.score strong{display:block;font-size:1.4rem;color:#f97316}.score span{font-size:.75rem;color:#9a5a2e}.status{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-bottom:14px;min-height:34px;font-weight:700}.chip{font-size:.75rem;color:#c2410c;border:1px solid #fdba74;background:#fff7ed;border-radius:999px;padding:7px 10px;white-space:nowrap}.board{width:100%;aspect-ratio:1;display:grid;grid-template-columns:repeat(3,1fr);gap:10px}.cell{appearance:none;padding:0;min-height:0;border-radius:18px;background:#fff7ed;border:2px solid #fdba74;color:#f97316;font-size:clamp(3rem,20vw,6rem);font-weight:900;line-height:1;display:grid;place-items:center;user-select:none;-webkit-user-select:none;touch-action:manipulation;cursor:pointer}.cell:active:not(:disabled){transform:scale(.96);background:#ffedd5}.cell:disabled{opacity:1}.cell.o{color:#9a3412}.cell.win{outline:3px solid #f97316;background:#ffedd5}.actions{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:14px}.primary{background:#f97316;color:#fff;border:1px solid #f97316;font-weight:800}.primary:active{background:#ea580c}.note{text-align:center;color:#9a5a2e;font-size:.75rem;margin:14px 0 0}@media(max-width:420px){body{padding:10px}.app{padding:14px;border-radius:20px}.controls,.actions{grid-template-columns:1fr}.board{gap:8px}.cell{border-radius:15px}}
 </style>
 </head>
 <body>
 <main class="app">
-<h1>Marcan3nRaya</h1>
+<h1>Tres al Toque</h1>
 <p class="sub">Toca una casilla para jugar.</p>
 <div class="controls"><select id="mode"><option value="cpu">Contra la máquina</option><option value="pvp">Dos jugadores</option></select><select id="diff"><option value="easy">Máquina casual</option><option value="hard">Máquina imbatible</option></select></div>
 <div class="score"><div><strong id="sx">0</strong><span id="lx">Tú (X)</span></div><div><strong id="sd">0</strong><span>Empates</span></div><div><strong id="so">0</strong><span id="lo">CPU (O)</span></div></div>
