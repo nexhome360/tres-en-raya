@@ -1,0 +1,9 @@
+{
+  "appId": "com.nexhome360.conquistaeuropa",
+  "appName": "Conquista Europa",
+  "webDir": "dist",
+  "bundledWebRuntime": false,
+  "android": {
+    "backgroundColor": "#0b1b33"
+  }
+}
